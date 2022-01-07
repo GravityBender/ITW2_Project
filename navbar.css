@@ -39,6 +39,39 @@ body {
   display: flex;
 } */
 
+.img-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  background-color: rgba(187, 218, 245, 0.548);
+  overflow: hidden;
+}
+
+.img-center:hover {
+  background-color: rgba(91, 105, 117, 0.548);
+}
+
+.img-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-70%, 300%);
+  background-color: #9cece6a2;
+  color: rgba(59, 56, 56, 0.89);
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.img-btn:hover {
+  background-color: #404949a2;
+  color: black;
+}
+
 .navbar {
   overflow: hidden;
   background-color: rgba(201, 195, 195, 0.425);
