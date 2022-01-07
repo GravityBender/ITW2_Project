@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+}
+
+.uppernav {
+  background-color: gray;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.uppernav img {
+  height: 70px;
+  width: 70px;
+}
+
+.nav_caption {
+  display: block;
+  font-size: 40px;
+}
+
+.navbg-img {
+  background-image: url("img/navbar_background.jpg");
+  height: 900px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.navbar {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 300px;
+}
+
+.centreul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.centreul li {
+  float: left;
+}
+
+.centreul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.centreul li a:hover:not(.navbar_active) {
+  background-color: red;
+}
+
+.centreul li a.navbar_active {
+  background-color: green;
+}
+
+.centreul li.navbar_right {
+  float: right;
+}
+
+@media screen and (max-width: 600px) {
+  .centreul li.navbar_right,
+  .centreul li {
+    float: none;
+  }
+}
