@@ -80,18 +80,20 @@ body {
   /* width: 100%; */
 }
 .navbar a {
-  float: left;
+  /* float: left; */
   font-size: 16px;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   margin: 10px 10px;
+  display: inline-block;
 }
 
 .dropdown {
-  float: left;
+  /* float: left; */
   overflow: hidden;
+  display: inline-table;
 }
 
 .dropdown .dropbtn {
@@ -140,4 +142,24 @@ body {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.wel-msg {
+  text-align: center;
+}
+
+.wel-msg p {
+  margin-left: 220px;
+  margin-right: 220px;
+}
+
+.av-anm {
+  text-align: center;
+}
+
+.av-anm img {
+  height: 100px;
+  width: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
