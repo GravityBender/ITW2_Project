@@ -1,0 +1,22 @@
+.wel-msg {
+  text-align: center;
+  padding-bottom: 59px;
+}
+
+.wel-msg p {
+  margin-left: 220px;
+  margin-right: 220px;
+}
+
+.av-anm {
+  text-align: center;
+  background-color: rgb(126, 160, 149);
+  padding-top: 50px;
+  padding-bottom: 45px;
+}
+
+.av-anm img {
+  height: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
