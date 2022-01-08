@@ -1,0 +1,40 @@
+.up-center {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.up-center p {
+  font-size: 20px;
+}
+
+.wrap-image {
+  float: left;
+  margin: 30px 10px 6px 10px;
+  padding-bottom: 100px;
+}
+
+.wrap-image img {
+  height: 300px;
+  width: 400px;
+  padding-bottom: 10px;
+}
+
+.img-caption {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: rgb(95, 68, 36);
+}
+
+.brdl-row {
+  display: flex;
+}
+
+.brdl-col {
+  flex: 30%;
+}
+
+.brdl-col img {
+  height: 300px;
+  width: 400px;
+}
