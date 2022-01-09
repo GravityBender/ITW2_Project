@@ -18,7 +18,7 @@ html {
   right: 0;
 }
 .backimg {
-  background-image: url("img/navbar_background.jpg");
+  background-image: url("../img/navbar_background.jpg");
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
