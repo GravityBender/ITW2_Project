@@ -24,6 +24,7 @@
   text-align: center;
   font-size: 18px;
   color: rgb(95, 68, 36);
+  margin-bottom: 40px;
 }
 
 .brdl-row {
@@ -36,5 +37,5 @@
 
 .brdl-col img {
   height: 300px;
-  width: 400px;
+  max-width: 400px;
 }
