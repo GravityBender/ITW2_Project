@@ -36,5 +36,5 @@
 
 .brdl-col img {
   height: 300px;
-  width: 400px;
+  max-width: 400px;
 }
