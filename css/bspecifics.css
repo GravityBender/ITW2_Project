@@ -1,0 +1,60 @@
+body {
+  background-color: rgba(247, 233, 235, 0.377);
+  /* display: flexbox; */
+}
+
+.mfont {
+  font-size: 17px;
+  font-family: "Verdana", "Geneva", Tahoma, sans-serif;
+  text-align: left;
+}
+.mtitle {
+  text-align: center;
+}
+
+.mtitle h3 {
+  font-weight: lighter;
+  color: rgb(51, 43, 43);
+}
+
+.para {
+  padding-right: 500px;
+  padding-left: 100px;
+
+  margin: auto;
+}
+
+.bparacont {
+  padding-left: 20px;
+  width: 55%;
+  margin-left: 100px;
+  border-style: dashed;
+  border-left-style: solid;
+  border-color: pink;
+  border-width: 3px;
+  font-size: 15px;
+}
+
+.ztable {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 55%;
+  margin-left: 100px;
+  font-size: 15px;
+}
+
+.ztable th,
+td {
+  text-align: left;
+  padding: 10px;
+}
+
+.ztable tr:nth-child(even) {
+  background-color: rgba(250, 136, 206, 0.445);
+}
+
+.hpara {
+  padding-right: 500px;
+  padding-left: 100px;
+  margin: auto;
+}
