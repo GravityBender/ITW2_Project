@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/navbar.css" />
-    <link rel="stylesheet" href="css/mainpage.css">
+    <link rel="stylesheet" href="css/mainpage.css" />
+    <link rel="stylesheet" href="css/modal.css" />
     <link rel="stylesheet" href="css/footer.css" />
     <link
       rel="stylesheet"
@@ -13,8 +14,8 @@
     />
     <title>Pets Love</title>
   </head>
-  <body>
-    <div class="uppernav">
+  <body id="modal-greet">
+    <!-- <div class="uppernav">
       <a href="index.html"
         ><img src="img/index_navbar_1.jpg" /><span class="nav_caption">
           Pets
@@ -24,10 +25,10 @@
         <i class="fa fa-phone">+91 876 864 3456</i>
         <i class="fa fa-envelope" style="padding-left: 20px;">pets@gmail.com</i>
       </div>
-    </div>
+    </div> -->
     <div class="navbg-img">
       <div class="img-center">We really care about your pet's welfare!</div>
-      <a href="#"><button class="img-btn">About Us</button></a>
+      <a href="#greet"><button class="img-btn">Read More</button></a>
       <div class="container">
         <div class="navbar">
           <a href="index.html" class="btn_active">Home</a>
@@ -38,13 +39,13 @@
               <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
-              <a href="DogBreeds.html">Dogs</a>
-              <a href="CatBreeds.html">Cats</a>
+              <a href="Pages/DogBreeds.html">Dogs</a>
+              <a href="Pages/CatBreeds.html">Cats</a>
               <a href="#">Birds</a>
             </div>
           </div>
           <a href="#news" style="float: right; color: black;">About</a>
-          <a href="JoinUs.html" style="float: right; color: black;">Join Us</a>
+          <a href="Pages/JoinUs.html" style="float: right; color: black;">Join Us</a>
         </div>
       </div>
     </div>
@@ -56,11 +57,48 @@
         incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
       </p>
     </div>
-    <div class="av-anm">
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>Welcome to the pets website!</h2>
+        </div>
+        <div class="modal-body">
+          <p>Like our website?</p>
+          <p>Subscribe to our newletter, and never miss an update!</p>
+          <div>
+            <form>
+              <input type="email" placeholder="Your Email..."><button type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+        <!-- <div class="modal-footer">
+          <h3>Modal Footer</h3>
+        </div> -->
+      </div>
+    </div>
+
+    <div class="av-anm" id="greet">
         <h1>Pets Available<span style="color: rgb(112, 93, 131); font-weight: 1000;"> For Adoption</span></h1>
-        <a href="DogBreeds.html"><img src="img/dog_sym.png"></a>
-        <a href="CatBreeds.html"><img src="img/cat_sym.png"></a>
+        <a href="Pages/DogBreeds.html"><img src="img/dog_sym.png"></a>
+        <a href="Pages/CatBreeds.html"><img src="img/cat_sym.png"></a>
         <a href="#"><img src="img/bird_sym.png"></a>
+    </div>
+
+    <div class="news-sub">
+      <div class="news-info">
+        <i class="fa fa-envelope" style="padding-left: 20px; font-size: 35px;"></i>
+        <div class="news-edit">
+          <h3>Subscribe Newsletter</h3>
+          <p style="padding-left:20px;">Get weekly news & latest updates from our excellent site!</p>
+        </div>
+      </div>
+      <div class="form-edit">
+        <form>
+        <input type="email" placeholder="Your Email..." class="fm-em"><button type="submit" class="fm-bt">Subscribe</button>
+        </form>
+      </div>
     </div>
 
     <footer style="background-color: #ffffff;">
@@ -83,10 +121,12 @@
                     </ul>
                 </div>
                 <div style="text-align: center; margin-left: 20px; color: rgb(97, 64, 15);">
-                    <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
+                    <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by 
                         <a href="#" class="cpylk">Garvit & Yatharth</a>.</p>
                 </div>
             </div>
         </footer>
+        <script src="js/navbar.js"></script>
+        <script src="js/modal.js"></script>
   </body>
 </html>
