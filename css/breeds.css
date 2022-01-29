@@ -29,11 +29,16 @@
 
 .brdl-row {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: stretch;
+  /* justify-content: space-between; */
+  align-items: baseline;
 }
 
-.brdl-col {
+/* .brdl-col {
   flex: 30%;
-}
+} */
 
 .brdl-col img {
   height: 300px;
