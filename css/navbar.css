@@ -32,7 +32,7 @@ body {
 .navbg-img {
   background: linear-gradient(45deg, rgb(37, 37, 37), #b8bcc587),
     url("../img/navbar_background.jpg");
-  height: 600px;
+  height: 700px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -83,7 +83,7 @@ body {
 
 .navbar {
   overflow: hidden;
-  background-color: rgba(201, 195, 195, 0.425);
+  background-color: rgba(70, 67, 67, 0.425);
   /* display: flex;
   align-items: center; */
   /* width: 100%; */
@@ -152,4 +152,10 @@ body {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
