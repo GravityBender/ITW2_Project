@@ -74,3 +74,12 @@
 .fm-bt:hover {
   background-color: #0d1326;
 }
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 250ms ease-in;
+}
+
+.fade-in.appear {
+  opacity: 1;
+}
