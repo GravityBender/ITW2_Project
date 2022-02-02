@@ -1,0 +1,148 @@
+body {
+  overflow-x: hidden;
+}
+.pcare-content-photo {
+  display: block;
+  padding-left: 90px;
+}
+
+.pcare-content {
+  padding: 80px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+.pcare-wrapper {
+  max-width: 1140px;
+}
+
+.pcare {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 3rem;
+  align-content: space-evenly;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-items: stretch;
+}
+
+.pcare-text {
+  text-align: center;
+}
+
+.pcare-text li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.pcare-img {
+  display: block;
+}
+
+.pcare-img img {
+  height: 400px;
+}
+
+.news-sub {
+  padding-top: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.news-edit {
+  font-size: 20px;
+  color: brown;
+}
+
+.news-info {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.form-edit {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fm-em {
+  border-style: inset;
+  border-radius: 7px;
+  border-width: 1px;
+  height: 40px;
+  width: 370px;
+}
+
+.fm-bt {
+  border-style: inset;
+  border-radius: 10px;
+  border-width: 1px;
+  border-left-style: none;
+  height: 45.4px;
+  background-color: #fd7979;
+  color: white;
+}
+
+.fm-bt:hover {
+  background-color: #0d1326;
+}
+
+.service-contents {
+  padding: 80px 0;
+}
+
+.service-contents-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: space-around;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.service-contents-img {
+  padding-left: 20px;
+  margin-left: 100px;
+}
+
+.service-contents-text {
+  align-self: center;
+}
+
+.service-contents-text-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: space-around;
+  justify-content: space-between;
+  align-items: baseline;
+  justify-items: center;
+}
+
+.from-left {
+  transform: translateX(-80%);
+  opacity: 0;
+  transition: opacity 250ms transform 500ms ease-in;
+}
+
+.from-left.appear {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 250ms ease-in;
+}
+
+.fade-in.appear {
+  opacity: 1;
+}
