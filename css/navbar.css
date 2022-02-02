@@ -41,6 +41,16 @@ body {
   justify-content: center; */
 }
 
+.navbg-img-abu {
+  background: linear-gradient(45deg, rgb(37, 37, 37), #eef5ae87),
+    url("../img/aboutus_navbar_background.jpg");
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 /* .container {
   position: absolute;
   margin: 20px;
@@ -56,6 +66,15 @@ body {
   font-size: 40px;
   background-color: rgba(187, 218, 245, 0.548);
   overflow: hidden;
+}
+
+.img-left {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  font-size: 30px;
+  overflow: hidden;
+  color: whitesmoke;
 }
 
 .img-center:hover {
