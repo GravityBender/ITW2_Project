@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/navbar.css" />
-    <link rel="stylesheet" href="css/mainpage.css" />
-    <link rel="stylesheet" href="css/modal.css" />
+    <link rel="stylesheet" href="css/mainpage.css">
     <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/modal.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -27,11 +27,11 @@
       </div>
     </div> -->
     <div class="navbg-img">
-      <div class="img-center">We really care about your pet's welfare!</div>
-      <a href="#greet"><button class="img-btn">Read More</button></a>
-      <div class="container">
+      <div class="img-center">We care about your pet's welfare!</div>
+      <a href="#about"><button class="img-btn">Read More</button></a>
+      <div id="container">
         <div class="navbar">
-          <a href="index.html" class="btn_active">Home</a>
+          <a href="Pages/index.html" class="btn_active">Home</a>
           <a href="#news">News</a>
           <div class="dropdown">
             <button class="dropbtn">
@@ -44,19 +44,79 @@
               <a href="#">Birds</a>
             </div>
           </div>
-          <a href="Pages/SignUp.html" style="float: right; color: black;">Join Us</a>
+          <a href="Pages/SignUp.php" style="float: right; color: black;">Join Us</a>
           <a href="Pages/AboutUs.html" style="float: right; color: black;">About</a>
         </div>
       </div>
     </div>
     <div class="wel-msg fade-in">
-      <h1 style="color: rgb(101, 101, 156)">Welcome To<span style="color: black;"> Pets</span></h2>
+      <h1 style="color: rgb(101, 101, 156); font-size: 50px;">Welcome To<span style="color: black;"> Pets</span></h2>
       <p>
         Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
         consectetur, adipisci velit, sed quia non numquam eius modi tempora
         incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
       </p>
     </div>
+
+    <section class="pcare-content-photo" id="about">
+      <div class="pcare-content">
+        <div class="pcare-wrapper">
+          <div class="pcare">
+            <div class="pcare-img">
+              <img src="../img/index_care.jpg" />
+            </div>
+            <div class="pcare-text">
+              <h2>Meet Proffessional Care You Can Trust</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                sit amet efficitur tortor
+              </p>
+              <p>Sed luctus orci sit amet tempor luctus. Nullam non felis massa. Phasellus vitae fringilla sapien, quis dictum mi. Quisque consectetur egestas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card-content-card">
+      <div class="card-content">
+        <div class="card-wrapper">
+          <div class="card-main">
+            <div class="card-text">
+              <h2>Meet Our Team Members</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                sit amet efficitur tortor
+              </p>
+            </div>
+            <div class="card fade-in">
+              <img src="img/johndoe.jpg" alt="John" style="width:100%">
+              <h1>Garvit Verma</h1>
+              <p class="card-title">Example</p>
+              <p>IIITN</p>
+              <div class="card-social">
+              <a href="#"><i class="fa fa-twitter"></i></a>&nbsp;
+              <a href="#"><i class="fa fa-linkedin"></i></a>&nbsp;
+              <a href="#"><i class="fa fa-facebook"></i></a>&nbsp;
+            </div>
+              <p><button class="card-btn">Contact</button></p>
+          </div>
+          <div class="card fade-in">
+            <img src="img/johndoe.jpg" alt="John" style="width:100%">
+            <h1>Yatharth Anand</h1>
+            <p class="card-title">Example</p>
+            <p>IIITN</p>
+            <div class="card-social">
+              <a href="#"><i class="fa fa-twitter"></i></a>&nbsp;
+              <a href="#"><i class="fa fa-linkedin"></i></a>&nbsp;
+              <a href="#"><i class="fa fa-facebook"></i></a>&nbsp;
+            </div>
+            <p><button class="card-btn">Contact</button></p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <div id="myModal" class="modal">
       <div class="modal-content">
@@ -78,7 +138,7 @@
         </div> -->
       </div>
     </div>
-
+    
     <div class="av-anm fade-in" id="greet">
         <h1>Pets Available<span style="color: rgb(112, 93, 131); font-weight: 1000;"> For Adoption</span></h1>
         <a href="Pages/DogBreeds.html"><img src="img/dog_sym.png"></a>
@@ -104,7 +164,7 @@
     <footer style="background-color: #ffffff;">
             <div class="mfoot">
                     <div class="ftlog">
-                        <a href="index.html"><img src="img/index_navbar_1.jpg"></a>
+                        <a href="Pages/index.html"><img src="img/index_navbar_1.jpg"></a>
                     </div>
                     <div class="alftlog">Pets</div>    
             </div>
@@ -121,8 +181,8 @@
                     </ul>
                 </div>
                 <div style="text-align: center; margin-left: 20px; color: rgb(97, 64, 15);">
-                    <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by 
-                        <a href="#" class="cpylk">Garvit & Yatharth</a>.</p>
+                    <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
+                        <a href="#" class="cpylk">Us</a>.</p>
                 </div>
             </div>
         </footer>
