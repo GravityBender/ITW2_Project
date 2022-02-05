@@ -4,15 +4,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <link rel="stylesheet" href="../css/dog_style.css">
+  <link rel="stylesheet" href="../css/navbar.css" />
+  <link rel="stylesheet" href="../css/footer.css"/>
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    
   <title>German Shepard</title>
 </head>
 
 <body>
 
-
   <!-- Dog Breed  -->
 <div style = "background-image: url('../img/gs1.jpg'); background-size: 100% 100%;">
+  <div class="navbar">
+    <a href="../index.html">Home</a>
+    <a href="../news.html">News</a>
+    <div class="dropdown btn_active">
+      <button class="dropbtn">
+        Breeds
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="DogBreeds.html">Dogs</a>
+        <a href="CatBreeds.html" class="btn_active">Cats</a>
+        <a href="#">Birds</a>
+      </div>
+    </div>
+    <a href="#news" style="float: right; color: black">About</a>
+    <a href="JoinUs.html" style="float: right; color: black;">Join Us</a>
+  </div>
   <section id="dog">
     <div class="dog container">
       <div>
@@ -109,8 +133,16 @@
       </div>
     </div>
   </section>
+  <footer style="background-color: #ffffff; margin-top: 100px;">
+    <div class="mfoot">
+            <div class="ftlog">
+                <a href="../index.html"><img src="../img/index_navbar_1.jpg"></a>
+            </div>
+            <div class="alftlog">Pets</div>    
+    </div>
+
+</footer>
+<script src="../js/navbar.js"></script>
   <!-- End History Section -->
-
 </body>
-
 </html>
